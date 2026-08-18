@@ -2,22 +2,22 @@ export default function Portfolio() {
   const projects = [
     {
       title: "Buyoff",
-      desc: "Modern e-commerce frontend with responsive UI and scalable components.",
+      desc: "Responsive frontend built from scratch with reusable, prop-driven UI components using Next.js and Tailwind CSS.",
       link: "https://buyoffssr.netlify.app",
     },
     {
       title: "ThunderScript",
-      desc: "Clean and modern frontend implementation with responsive layouts.",
+      desc: "Figma designs translated into responsive frontend sections with a consistent, reusable component structure.",
       link: "https://dev.thunderscript.com",
     },
     {
       title: "Infra Corridors",
-      desc: "Landing page and business website with elegant responsive design.",
+      desc: "Responsive landing pages and reusable frontend sections built from design specs using React.js and Bootstrap.",
       link: "https://infracorridors.netlify.app",
     },
     {
       title: "BrainIQ",
-      desc: "Interactive gaming and quiz platform with engaging UI experience.",
+      desc: "Interactive quiz/gaming UI with dynamic, state-driven components and real-time updates.",
       link: "https://devbrainiq.netlify.app",
     },
   ];
@@ -34,7 +34,7 @@ export default function Portfolio() {
           Rupali<span className="text-purple-400">.</span>
         </h1>
 
-        <div className="hidden md:flex gap-8 text-gray-300">
+        <div className="hidden md:flex items-center gap-8 text-gray-300">
           <a href="#skills" className="hover:text-white transition">
             Skills
           </a>
@@ -43,6 +43,30 @@ export default function Portfolio() {
           </a>
           <a href="#contact" className="hover:text-white transition">
             Contact
+          </a>
+          <a
+            href="https://github.com/honey271999"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white transition"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/rupali-pandey-3b56691b9/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white transition"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="/Rupali_Pandey_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-5 py-2 rounded-xl bg-white/10 border border-white/20 hover:bg-white/20 transition"
+          >
+            Resume
           </a>
         </div>
       </nav>
@@ -63,7 +87,7 @@ export default function Portfolio() {
             </h1>
 
             <p className="text-gray-400 text-lg leading-8 mt-8 max-w-xl">
-              Frontend Developer specializing in React.js, Next.js,
+              Frontend Developer specializing in React.js, TypeScript, Next.js,
               JavaScript, Tailwind CSS, and responsive UI development.
               Passionate about building modern, scalable, and visually
               engaging web applications.
@@ -82,6 +106,15 @@ export default function Portfolio() {
                 className="px-7 py-4 rounded-2xl border border-white/20 bg-white/5 backdrop-blur-md hover:bg-white/10 transition"
               >
                 Contact Me
+              </a>
+
+              <a
+                href="/Rupali_Pandey_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-7 py-4 rounded-2xl border border-white/20 bg-white/5 backdrop-blur-md hover:bg-white/10 transition"
+              >
+                Download Resume
               </a>
             </div>
           </div>
@@ -107,7 +140,7 @@ export default function Portfolio() {
               <div className="mt-10 grid grid-cols-2 gap-5">
                 <div className="bg-white/5 rounded-2xl p-5 border border-white/10">
                   <h3 className="text-3xl font-bold text-purple-400">
-                    2+
+                    3+
                   </h3>
                   <p className="text-gray-400 mt-2">Years Experience</p>
                 </div>
@@ -154,6 +187,7 @@ export default function Portfolio() {
             {[
               "React.js",
               "Next.js",
+              "TypeScript",
               "JavaScript",
               "Tailwind CSS",
               "HTML5",
@@ -209,6 +243,7 @@ export default function Portfolio() {
                 <a
                   href={project.link}
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-block mt-8 text-purple-400 font-medium hover:text-white transition"
                 >
                   Visit Website →
@@ -234,12 +269,32 @@ export default function Portfolio() {
             and exciting web projects.
           </p>
 
-          <a
-            href="mailto:rupalipandey132@gmail.com"
-            className="inline-block mt-10 px-10 py-5 rounded-2xl bg-gradient-to-r from-purple-500 to-blue-500 font-semibold hover:scale-105 transition"
-          >
-            Get In Touch
-          </a>
+          <div className="flex flex-wrap items-center justify-center gap-5 mt-10">
+            <a
+              href="mailto:rupalipandey132@gmail.com"
+              className="inline-block px-10 py-5 rounded-2xl bg-gradient-to-r from-purple-500 to-blue-500 font-semibold hover:scale-105 transition"
+            >
+              Get In Touch
+            </a>
+
+            <a
+              href="https://github.com/honey271999"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-10 py-5 rounded-2xl border border-white/20 bg-white/5 backdrop-blur-md hover:bg-white/10 transition"
+            >
+              GitHub
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/rupali-pandey-3b56691b9/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-10 py-5 rounded-2xl border border-white/20 bg-white/5 backdrop-blur-md hover:bg-white/10 transition"
+            >
+              LinkedIn
+            </a>
+          </div>
         </div>
       </section>
     </main>
