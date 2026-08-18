@@ -1,11 +1,12 @@
 # Hi, I'm Rupali 👋
 
-Frontend Developer specializing in React.js, Next.js, JavaScript, and Tailwind CSS.
+Frontend Developer specializing in React.js, Next.js, TypeScript, JavaScript, and Tailwind CSS.
 Passionate about building responsive, modern, and user-friendly web applications.
 
 ## 🚀 Tech Stack
 
 * React.js
+* TypeScript
 * Next.js
 * JavaScript
 * Tailwind CSS
