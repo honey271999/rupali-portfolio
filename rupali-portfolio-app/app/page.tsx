@@ -61,7 +61,7 @@ export default function Portfolio() {
             LinkedIn
           </a>
           <a
-            href="/Rupali_Pandey_Resume-frontend.pdf"
+            href="/Rupali_Pandey_Resume-frontend1.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-5 py-2 rounded-xl bg-white/10 border border-white/20 hover:bg-white/20 transition"
@@ -109,7 +109,7 @@ export default function Portfolio() {
               </a>
 
               <a
-                href="/Rupali_Pandey_Resume-frontend.pdf"
+                href="/Rupali_Pandey_Resume-frontend1.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-7 py-4 rounded-2xl border border-white/20 bg-white/5 backdrop-blur-md hover:bg-white/10 transition"
