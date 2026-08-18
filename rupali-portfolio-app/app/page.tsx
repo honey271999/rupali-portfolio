@@ -109,7 +109,7 @@ export default function Portfolio() {
               </a>
 
               <a
-                href="/Rupali_Pandey_Resume.pdf"
+                href="/Rupali_Pandey_Resume-frontend.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-7 py-4 rounded-2xl border border-white/20 bg-white/5 backdrop-blur-md hover:bg-white/10 transition"
